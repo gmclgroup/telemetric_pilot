@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!DOCTYPE properties SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+
+<properties>
+
+    <!-- Database -->
+    <entry key='database.driver'>org.h2.Driver</entry>
+    <entry key='database.url'>jdbc:h2:/opt/traccar/data/database</entry>
+    <entry key='database.user'>sa</entry>
+    <entry key='database.password'></entry>
+
+    <!-- Web UI -->
+    <entry key='web.enable'>true</entry>
+    <entry key='web.port'>8082</entry>
+    <entry key='web.path'>/opt/traccar/web</entry>
+
+    <!-- GPS Protocol Ports (add/remove as needed for your tracker model) -->
+    <!-- GT06 -->
+    <entry key='gt06.port'>5023</entry>
+    <!-- H02 -->
+    <entry key='h02.port'>5013</entry>
+    <!-- Teltonika -->
+    <entry key='teltonika.port'>5027</entry>
+    <!-- TK103 -->
+    <entry key='tk103.port'>5002</entry>
+
+    <!-- Logging -->
+    <entry key='logger.level'>info</entry>
+    <entry key='logger.file'>/opt/traccar/logs/tracker-server.log</entry>
+
+</properties>
